@@ -7,6 +7,8 @@ tags: [typescript, node, javascript]
 ---
 ![web-crawler](https://cdn-icons-png.flaticon.com/512/531/531270.png)
 
+> There is error on table
+{: .prompt-danger }
 
 # Overview
 For Node js, there are two ways to scrap the web pages. One is puppeteer and the other way is cheerio. <br>
@@ -20,6 +22,12 @@ Both way has their own advantage and disadvantage. Some developers including me 
 | interaction | Impossible | possible     |
 | Syntax      | Simple     | Complex      |
 | headless    | true       | false        |
+
+| Company                      | Contact          | Country |
+|:-----------------------------|:-----------------|--------:|
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    | UK      |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
 
 # How to use
 We will try to phase the Amazon for example

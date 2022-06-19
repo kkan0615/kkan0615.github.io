@@ -100,5 +100,9 @@
   {% if site.google_analytics.id != empty and site.google_analytics.id %}
     {% include google-analytics.html %}
   {% endif %}
+<!-- Google adsense -->
+{% if site.google_adsense.id != empty and site.google_adsense.id %}
+  {% include google-adsense.html %}
+{% endif %}
 
 {% endif %}

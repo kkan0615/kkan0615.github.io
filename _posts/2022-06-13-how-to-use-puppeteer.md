@@ -7,9 +7,6 @@ tags: [typescript, node, javascript]
 ---
 ![web-crawler](https://cdn-icons-png.flaticon.com/512/531/531270.png)
 
-> There is error on table
-{: .prompt-danger }
-
 # Overview
 For Node js, there are two ways to scrap the web pages. One is puppeteer and the other way is cheerio. <br>
 Both way has their own advantage and disadvantage. Some developers including me uses both libraries for wb web crawling.

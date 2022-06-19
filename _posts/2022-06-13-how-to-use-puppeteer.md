@@ -13,7 +13,7 @@ For Node js, there are two ways to scrap the web pages. One is puppeteer and the
 Both way has their own advantage and disadvantage. Some developers including me uses both libraries for wb web crawling.
 
 # What is different between cheerio and puppeteer
-|             | Cheerio    | Puppeteer    |
+| Compare     | Cheerio    | Puppeteer    |
 |:------------|:-----------|:-------------|
 | interaction | Dom phaser | Good for SPA |
 | interaction | Impossible | possible     |

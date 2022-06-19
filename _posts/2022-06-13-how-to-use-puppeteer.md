@@ -23,11 +23,6 @@ Both way has their own advantage and disadvantage. Some developers including me 
 | Syntax      | Simple     | Complex      |
 | headless    | true       | false        |
 
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
 
 # How to use
 We will try to phase the Amazon for example

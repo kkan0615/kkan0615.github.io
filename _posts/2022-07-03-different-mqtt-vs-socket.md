@@ -1,9 +1,9 @@
 ---
-title: What is different between Mqtt and Socket
+title: What is different between mqtt and socket ?
 author: Youngjin Kwak
-date: 2022-07-20 11:56:00 +0800
-categories: [Network, Server]
-tags: [network, server]
+date: 2022-07-02 00:24:00 +0800
+categories: [Backend]
+tags: [backend]
 ---
 # What is mqtt?
 MQTT stands for Message Queuing Telemetry Transport. MQTT is a simple messaging protocol, designed for constrained devices with low bandwidth. So, it’s the perfect solution to exchange data between multiple IoT devices.
@@ -18,8 +18,7 @@ MQTT stands for Message Queuing Telemetry Transport. MQTT is a simple messaging 
 8. (QoS) Quality of service. It defines priority for data flow
 
 ## Publish-Subscribe Architecture
-
-[//]: # (![mqtt-architecture]&#40;https://mqtt.org/assets/img/mqtt-publish-subscribe.png&#41;)
+![mqtt-architecture](https://mqtt.org/assets/img/mqtt-publish-subscribe.png)
 
 ### Note
 1. MQTT Client -> MQTT Broker (Publish)

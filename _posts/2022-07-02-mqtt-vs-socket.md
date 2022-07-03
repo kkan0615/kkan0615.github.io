@@ -18,7 +18,8 @@ MQTT stands for Message Queuing Telemetry Transport. MQTT is a simple messaging 
 8. (QoS) Quality of service. It defines priority for data flow
 
 ## Publish-Subscribe Architecture
-![mqtt-architecture](https://mqtt.org/assets/img/mqtt-publish-subscribe.png)
+
+[//]: # (![mqtt-architecture]&#40;https://mqtt.org/assets/img/mqtt-publish-subscribe.png&#41;)
 
 ### Note
 1. MQTT Client -> MQTT Broker (Publish)

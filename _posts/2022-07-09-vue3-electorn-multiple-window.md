@@ -1,5 +1,5 @@
 ---
-title: Programmers - 92334
+title: How to create electron multiple windows with vue-router
 author: Youngjin Kwak
 date: 2022-07-09 22:19:00 +0800
 categories: [Electron, Vue]

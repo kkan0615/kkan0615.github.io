@@ -1,13 +1,15 @@
 ---
 title: Quick start: create Azure database
 author: Youngjin Kwak
-date: 2022-07-15 22:19:00 +0800
+date: 2022-07-15 00:10:00 +0800
 categories: [Azure, Database]
 tags: [azure, database]
 ---
-![electron-logo](../images/azure.jpg)
+![azure](../images/azure.jpg)
 In this quickstart, you create the Azure SQL Database using Azure portal.<br>
 In addition, you will add your current Ip Address to white list.
+
+[Official azure database link](https://azure.microsoft.com/en-ca/free/cosmos-db/search/?&ef_id=CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE:G:s&OCID=AIDcmmqz3gd78m_SEM_CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE:G:s&gclid=CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE)
 
 # Getting started
 ## Step 1

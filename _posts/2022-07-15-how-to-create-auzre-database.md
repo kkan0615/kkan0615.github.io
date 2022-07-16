@@ -1,9 +1,9 @@
 ---
-title: Quick start: create Azure database
+title: Quick start: create azure sql server and database
 author: Youngjin Kwak
-date: 2022-07-15 00:10:00 +0800
-categories: [Azure, Database]
-tags: [azure, database]
+date: 2022-07-15 19:16:00 +0800
+categories: [Azure, Database, SQL]
+tags: [azure, database, sql]
 ---
 ![azure](../images/azure.jpg)
 

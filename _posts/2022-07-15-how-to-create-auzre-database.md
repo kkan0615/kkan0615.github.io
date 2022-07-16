@@ -6,7 +6,8 @@ categories: [Azure, Database]
 tags: [azure, database]
 ---
 ![azure](../images/azure.jpg)
-In this quickstart, you create the Azure SQL Database using Azure portal.<br>
+
+In this quickstart, you create the Azure SQL Database using Azure portal.
 In addition, you will add your current Ip Address to white list.
 
 [Official azure database link](https://azure.microsoft.com/en-ca/free/cosmos-db/search/?&ef_id=CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE:G:s&OCID=AIDcmmqz3gd78m_SEM_CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE:G:s&gclid=CjwKCAjwoMSWBhAdEiwAVJ2ndmGrePZZiNQYQ7AgyA5Cefr1JwxycghnEqAIzg5NtQwh_CpubPc-qxoCq5oQAvD_BwE)

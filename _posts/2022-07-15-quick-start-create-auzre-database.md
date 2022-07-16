@@ -1,14 +1,9 @@
 ---
-title: Quick start: create azure sql server and database
+title: How to create electron multiple windows with vue-router!!
 author: Youngjin Kwak
-date: 2022-07-15 19:16:00 +0800
-categories: [Azure, Database, SQL]
-tags: [azure, database, sql]
-image:
-  path: ../images/azure.jpg
-  width: 800
-  height: 500
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+date: 2022-07-09 22:19:00 +0800
+categories: [Electron, Vue]
+tags: [electron, vue]
 ---
 
 [//]: # (![azure]&#40;../images/azure.jpg&#41;)

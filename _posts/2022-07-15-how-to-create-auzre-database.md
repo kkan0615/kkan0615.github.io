@@ -5,6 +5,7 @@ date: 2022-07-15 19:16:00 +0800
 categories: [Azure, Database, SQL]
 tags: [azure, database, sql]
 ---
+
 ![azure](../images/azure.jpg)
 
 In this quickstart, you create the Azure SQL Database using Azure portal.

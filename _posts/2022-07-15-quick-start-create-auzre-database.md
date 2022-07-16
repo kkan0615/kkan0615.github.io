@@ -1,9 +1,9 @@
 ---
-title: How to create electron multiple windows with vue-router!!
+title: Quick start, how to create azure database
 author: Youngjin Kwak
-date: 2022-07-09 22:19:00 +0800
-categories: [Electron, Vue]
-tags: [electron, vue]
+date: 2022-07-15 21:19:00 +0800
+categories: [Azure, Database, SQL]
+tags: [azure, database, sql]
 ---
 
 [//]: # (![azure]&#40;../images/azure.jpg&#41;)

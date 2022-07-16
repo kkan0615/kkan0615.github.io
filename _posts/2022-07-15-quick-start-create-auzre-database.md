@@ -4,9 +4,14 @@ author: Youngjin Kwak
 date: 2022-07-15 19:16:00 +0800
 categories: [Azure, Database, SQL]
 tags: [azure, database, sql]
+image:
+  path: ../images/azure.jpg
+  width: 800
+  height: 500
+  alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-![azure](../images/azure.jpg)
+[//]: # (![azure]&#40;../images/azure.jpg&#41;)
 
 In this quickstart, you create the Azure SQL Database using Azure portal.
 In addition, you will add your current Ip Address to white list.

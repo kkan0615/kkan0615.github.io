@@ -4,11 +4,15 @@ author: Youngjin Kwak
 date: 2022-08-27 13:21:00 +0800
 categories: [typescript]
 tags: [typescript]
+image:
+  path: ../images/typescript-logo.png
+  width: 800
+  height: 500
+  alt: typescript-logo.
 ---
+---
+[//]: # (![typescript-logo]&#40;../images/typescript-logo.png&#41;)
 This post is written under v4.7.4. You can test all code following link [playground](https://www.typescriptlang.org/play#example/types-vs-interfaces)
-
-```typescript
-```
 # Interface and Type
 ## Both can have "Name"
 ### Interface

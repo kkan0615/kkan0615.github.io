@@ -47,6 +47,9 @@ export const buildWorkerScript = (workerCode: () => void) => {
   return URL.createObjectURL(blob)
 }
 ```
+### Note
+- Take function code as parameter
+- Change code in file to Blob
 
 ## Step 3 - react page
 ```tsx
@@ -78,7 +81,8 @@ useEffect(() => {
 }, [])
 ```
 ### Note
-- Because of builder, the developers can just import file and put in the Worker class constructor parameter
+- postMessage() function sends message to background (worker).
+- Because of builder, the developers can just import file and put in the Worker class constructor parameter.
 
 # Refs
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers

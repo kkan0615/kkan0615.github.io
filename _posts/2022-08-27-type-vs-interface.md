@@ -42,6 +42,8 @@ const point: Point = {
 
 # Interface vs Type
 ## merging
+At the most basic level, the merge mechanically joins the members of both declarations into a single interface with the same name.
+See more [offical](https://www.typescriptlang.org/docs/handbook/declaration-merging.html)
 ### Interface
 ```typescript
 interface Person {
@@ -90,6 +92,8 @@ const containerWidth: Width = '20px';
 ```
 
 ## Type can have "Tuple"
+Tuple can contain two values of different data types. <br>
+See more [official](https://www.tutorialsteacher.com/typescript/typescript-tuple)
 ```typescript
 type Person = [number, string, boolean];
 
@@ -106,6 +110,7 @@ interface Persion {
 The reason is interface can not have tuple directly.
 
 ## Type can use "computed properties"
+The computed properties are number and symbol named properties in index types and mapped types
 ### Types
 ```typescript
 type Keys = 'firstName' | 'lastName';

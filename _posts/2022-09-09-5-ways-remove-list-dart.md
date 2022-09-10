@@ -5,7 +5,7 @@ date: 2022-09-09 22:21:00 +0800
 categories: [dart]
 tags: [dart]
 image:
-  path: ../images/dart-logo.png
+  path: ../images/dart-logo.jpg
   width: 800
   height: 500
   alt: dart-logo.

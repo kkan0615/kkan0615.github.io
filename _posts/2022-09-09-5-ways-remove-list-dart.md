@@ -15,7 +15,7 @@ image:
 This post is written under Dart 2.18. You can test all the codes on [DartPad](https://dartpad.dev/?)
 
 # 1. Remove element at a specific index
-```
+```dart
 E removeAt(int index);
 ```
 ## Note
@@ -34,7 +34,7 @@ E removeAt(int index);
 ```
 
 # 2. Remove specific element
-```
+```dart
 bool remove(Object? value);
 ```
 ## Note
@@ -57,7 +57,7 @@ Otherwise, ```remove()``` method will return false if the element is failed to r
 ```
 
 # 3. Remove last element from list
-```
+```dart
 E removeLast();
 ```
 ## Note
@@ -68,7 +68,7 @@ However ```removeLast()``` occurs an error if the list is **not empty**.
 [Document](https://api.dart.dev/stable/2.13.4/dart-core/List/removeLast.html) is here.
 
 ## Example
-```
+```dart
  List list = [1, 2, 3, 4, 5];
 
  int removedElement = list.removeLast();
@@ -85,7 +85,7 @@ Uncaught Error: RangeError (index): Index out of range: index must not be negati
 
 ## Alternative
 Along with ```removedAt()``` method which is mentioned above and length of list as an argument, ```removeAt(List.length - 1)``` is an alternative way.
-```
+```dart
  List list = [1, 2, 3, 4, 5];
 
  int removedElement = list.removeAt(list.length - 1);
@@ -102,7 +102,7 @@ However, new length should be **positive number**.
 You also can remove elements by subtracting specific number which is less than length
 
 ## Example
-```
+```dart
  List list = [1, 2, 3, 4, 5];
 
  int newLength = 3;
@@ -112,7 +112,7 @@ You also can remove elements by subtracting specific number which is less than l
  print(list.length); // Expect: 3
 ```
 ## Example 2
-```
+```dart
  List list = [1, 2, 3, 4, 5];
 
  list.length = list.length - 2;
@@ -134,7 +134,7 @@ end and start should be smaller than the list's length.
 Return type of ```removeRange()``` is **void**
 
 ## Example
-```
+```dart
 List list = [1, 2, 3, 4, 5];
 
 list.removeRange(2, 4);
@@ -144,7 +144,7 @@ print(list.length); // Expect: 3
 ```
 
 # 5. Remove specific element by passing function which returns boolean type
-```
+```dart
 void removeWhere(bool test(E element));
 ```
 ## Note
@@ -153,7 +153,7 @@ void removeWhere(bool test(E element));
 The return type of ```removeWhere()``` method is void.
 
 ## Example
-```
+```dart
   List list = [1, 2, 3, 4, 5];
 
   list.removeWhere(((element) => element > 3));

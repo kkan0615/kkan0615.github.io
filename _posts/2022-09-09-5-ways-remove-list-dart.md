@@ -14,7 +14,7 @@ image:
 # Overview
 This post is written under Dart 2.18. You can test all the codes on [DartPad](https://dartpad.dev/?)
 
-# 1. Remove element at a specific index
+# 1. removeAt(): Remove element at a specific index
 ```dart
 E removeAt(int index);
 ```
@@ -33,7 +33,7 @@ E removeAt(int index);
  print(list.length);     // Expect: 4
 ```
 
-# 2. Remove specific element
+# 2. remove(): Remove specific element
 ```dart
 bool remove(Object? value);
 ```
@@ -56,7 +56,7 @@ Otherwise, ```remove()``` method will return false if the element is failed to r
  print(list.length);     // Expect: 4
 ```
 
-# 3. Remove last element from list
+# 3. removeLast(): Remove last element from list
 ```dart
 E removeLast();
 ```
@@ -121,8 +121,8 @@ You also can remove elements by subtracting specific number which is less than l
  print(list.length); // Expect: 3
 ```
 
-# 4. Remove element between specific number and specific number
-```
+# 4. removeRange(): Remove element between specific number and specific number
+```dart
 void removeRange(int start, int end);
 ```
 ## Note
@@ -143,7 +143,7 @@ print(list); // Expect: [1, 2, 5]
 print(list.length); // Expect: 3
 ```
 
-# 5. Remove specific element by passing function which returns boolean type
+# 5. removeWhere(): Remove specific element by passing function which returns boolean type
 ```dart
 void removeWhere(bool test(E element));
 ```

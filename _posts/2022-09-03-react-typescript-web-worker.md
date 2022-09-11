@@ -12,11 +12,11 @@ image:
 ---
 # What is web worker
 The web worker is for web content to run scripts in background thread. The web worker allows developer to use multithreading in Web.
-The web worker also prevents stopping website because of heavy task in stack
+The web worker is used for preventing to stop website because of heavy task in stack
 
 # Sample code
-The developers can not use web worker made by ts file directly unlike when they use web worker made by js file, so they are required to change
-blob data
+Unfortunately, developers can not use web worker made by ts file directly unlike when they use web worker made by js file, so they are required to change
+the code to blob data and blob to url
 ## Step 1 - web worker
 ```typescript
 // webworker.ts
@@ -25,13 +25,14 @@ const workerCode = () => {
     postMessage('Send message', e.data)
   }
 }
+
 const worker = buildWorkerScript(workerCode)
 
 export default worker
 ```
 ### Note
-- buildWorkerScript is function that creates objectUrl, you can see the code at next step
-- postMessage() function sends data to page
+- buildWorkerScript is for creating the code to objectUrl. we will discuss more at next step
+- postMessage() function is used for sending the data to page
 
 ## Step 2 - buildWorkerScript
 ```typescript
@@ -50,6 +51,7 @@ export const buildWorkerScript = (workerCode: () => void) => {
 ### Note
 - Take function code as parameter
 - Change code in file to Blob
+- Generate url in order to use it as Worker's url
 
 ## Step 3 - react page
 ```tsx
@@ -81,7 +83,7 @@ useEffect(() => {
 }, [])
 ```
 ### Note
-- postMessage() function sends message to background (worker).
+- postMessage() function in page sends message to background (worker).
 - Because of builder, the developers can just import file and put in the Worker class constructor parameter.
 
 # Refs

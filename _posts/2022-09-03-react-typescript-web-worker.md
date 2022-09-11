@@ -85,6 +85,7 @@ useEffect(() => {
 ### Note
 - postMessage() function in page sends message to background (worker).
 - Because of builder, the developers can just import file and put in the Worker class constructor parameter.
+- Developers need to destroy Worker for saving memory
 
 # Refs
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers

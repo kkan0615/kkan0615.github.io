@@ -1,7 +1,7 @@
 ---
 title: React typescript web worker
 author: Youngjin Kwak
-date: 2022-09-03 13:21:00 +0800
+date: 2022-09-17 13:21:00 +0800
 categories: [typescript, react]
 tags: [typescript, react]
 image:
@@ -13,6 +13,7 @@ image:
 # What is web worker
 The web worker is for web content to run scripts in background thread. The web worker allows developer to use multithreading in Web.
 The web worker is used for preventing to stop website because of heavy task in stack
+Here is (document)[https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers]
 
 # Sample code
 Unfortunately, developers can not use web worker made by ts file directly unlike when they use web worker made by js file, so they are required to change
@@ -32,7 +33,9 @@ export default worker
 ```
 ### Note
 - buildWorkerScript is for creating the code to objectUrl. we will discuss more at next step
-- postMessage() function is used for sending the data to page
+- ```postMessage()``` function is used for sending the data to page
+- ```onmessage``` event handler allows developers to run the code whenever a message is received
+- The data from the web worker is stored in event's data attribute.
 
 ## Step 2 - buildWorkerScript
 ```typescript
@@ -83,15 +86,17 @@ useEffect(() => {
 }, [])
 ```
 ### Note
-- postMessage() function in page sends message to background (worker).
+- ```postMessage()``` function is used to send a message to background (worker).
+- The developers can contain data as argument. ```postMessage([1, 2, 3])```
 - Because of builder, the developers can just import file and put in the Worker class constructor parameter.
 - Developers need to destroy Worker for saving memory
 
 # Refs
-- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-- https://codecompiled.com/web-workers-in-html5
-- https://stackoverflow.com/questions/60695105/how-to-use-webworkers-in-react-using-typescript
-- https://blog.johnnyreilly.com/2020/02/21/web-workers-comlink-typescript-and-react
+- (https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+- (https://codecompiled.com/web-workers-in-html5)
+- (https://stackoverflow.com/questions/60695105/how-to-use-webworkers-in-react-using-typescript)
+- (https://blog.johnnyreilly.com/2020/02/21/web-workers-comlink-typescript-and-react)
+- (https://en.wikipedia.org/wiki/Web_worker)
 
 # Support
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/youngjinkwak)

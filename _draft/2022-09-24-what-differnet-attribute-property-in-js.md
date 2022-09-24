@@ -12,10 +12,14 @@ image:
 ---
 ---
 # What is "property"?
-JS DOM objects contain dozens of properties like accept, checked, classList, className, etc.
-The properties may be different by DOM objects.
+```html
+<input type="text" value="name">
+```
+In input html element, there are two attributes. One is ```type```. The other one is ```value```
 
 ## How to get property
+JS DOM objects contain dozens of properties like accept, checked, classList, className, etc.
+The properties may be different by DOM objects.
 ```html
 <a id="home-link" href="/" class="link">home</a>
 ```
@@ -28,9 +32,9 @@ console.log(link.className) // "link"
 # See more with code
 Let's consider that there is following html element in your project.
 ```html
-<input type="text" value="Name:">
+<input type="checkbox" checked="true" />
 ```
-In input html element, there are two attributes. One is ```type```. The other one is ```value```
+In input html element, there are two attributes. One is ```type```. The other one is ```checked```
 Once the browser parses this code, a ```HTMLInputElement``` object will be created.
 
 # Ref

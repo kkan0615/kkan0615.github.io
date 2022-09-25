@@ -12,18 +12,21 @@ image:
 ---
 ---
 # Overview
-You can test all the codes on [playground](https://playcode.io/javascript).
+The terms attribute and property can be confusing in HTML. You can test all the codes on [playground](https://playcode.io/javascript).
 
-# Property
-- Defined by the DOM
-- Property value can be changed after it's initialized
-- describing the characteristics of an object.
--
-# Attribute
-- Defined by HTML
-- Attribute value can not be changed
+# Attribute vs Property
+## Attribute
+- Defined by HTML. (related to HTML)
+- Attribute value can not be changed.
 - Attributes initialize DOM properties when the browser parses the HTML to generate DOM objects for HTML tags.
 - referring to additional information of an object.
+- Attribute update the property synchronously.
+
+## Property
+- Defined by the DOM. (related to DOM)
+- Property value can be changed after it's initialized
+- describing the characteristics of an object.
+- Property change does not affect the attribute.
 
 
 # See more with code
@@ -41,6 +44,12 @@ The properties may be different by DOM objects.
 const nameInput = document.querySelector('#name-input')
 console.log(nameInput.hasAttribute('type')) // true
 console.log(nameInput.hasAttribute('name')) // false
+```
+
+## Get collection of all attributes
+```javascript
+const nameInput = document.querySelector('#name-input')
+console.log(nameInput.attributes) // { 0: Attr { ... }, 1: Attr { ... } }
 ```
 
 ## Remove "attribute"

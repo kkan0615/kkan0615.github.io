@@ -61,6 +61,7 @@ reader.onload = function(){
 reader.readAsDataURL(event.target.files[0])
 ```
 # Vue 3 version
+The sample code is written by Vue 3 and SFC.
 ```vue
 <script setup>
 import { ref, computed, onBeforeUnmount } from 'vue'

@@ -1,7 +1,7 @@
 ---
 title: Javascript how to preview image without server
 author: Youngjin Kwak
-date: 2022-10-16 12:21:00 +0800
+date: 2022-10-22 10:21:00 +0800
 categories: [javascript]
 tags: [javascript]
 image:
@@ -54,12 +54,14 @@ In this case, we are going to use ```readAsDataURL()``` which change file to Dat
 We are going to use same HTML that we used in ```createObjectURL()```
 ```javascript
 const reader = new FileReader()
-reader.onload = function(){
+// When reader is onload
+reader.onload = function() {
   const output = document.getElementById('preview-image');
   output.src = reader.result;
 }
 reader.readAsDataURL(event.target.files[0])
 ```
+
 # Vue 3 version
 The sample code is written by Vue 3 and SFC.
 ```vue
@@ -97,6 +99,7 @@ const onChangeImageInput = (event) => {
 ```
 ### Note
 - It is required to free memory before unmount component
+- Render an image when src is exist
 
 # React version
 ```jsx
@@ -133,6 +136,7 @@ render(<App />, document.getElementById('root'));
 ```
 ### Note
 - It is required to free memory before unmount component
+- Render an image when src is exist
 
 # Ref
 - [MDN - URL.createObjectURL()](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)

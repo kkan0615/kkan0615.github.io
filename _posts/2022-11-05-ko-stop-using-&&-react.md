@@ -1,9 +1,9 @@
 ---
 title: React에서 조건문으로 랜더링시 "&&" 사용하지 맙시다.
 author: Youngjin Kwak
-date: 2022-11-01 18:21:00 +0800
+date: 2022-11-05 15:21:00 +0800
 categories: [Korean, React]
-tags: [react, advanced]
+tags: [react, advanced, translate]
 image:
   path: ../images/react-logo.jpeg
   width: 800
@@ -12,7 +12,9 @@ image:
 ---
 ---
 # Overview
-안녕하세요.
+React 내에서 조건적으로 Rendering 하는 방법은 많습니다. 그중에서 이 포스팅은 "&&"을 이용한 조건 Rendering 에 관한 이야기를 할 것입니다.
+"&&" 을 사용하여 Rendering 할 경우 코드는 가독성은 좋지만, 가끔 UI 버그를 유발하는 경우가 있습니다.
+그래서 이 포스팅은 왜 "&&" 을 사용하지 말아야하는 것과 사용 하더라도 어떻게 잘 사용해야 할까에 대한 내용을 담고 있습니다.
 
 # "&&" React 내에서 사용하는 법
 ```tsx

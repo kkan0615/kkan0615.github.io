@@ -2,7 +2,7 @@
 title: React에서 조건문으로 랜더링시 "&&" 사용하지 맙시다.
 author: Youngjin Kwak
 date: 2022-11-05 15:21:00 +0800
-categories: [Korean, React]
+categories: [korean, react]
 tags: [react, advanced, translate]
 image:
   path: ../images/react-logo.jpeg

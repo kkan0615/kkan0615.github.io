@@ -77,7 +77,7 @@ condition이 ```true``` 일 경우 Rendering 하는 접근법 자체는 같습�
 
 # Ref
 [Stop Using “&&” for Conditional Rendering in React - Jakub Kozak](https://medium.com/geekculture/stop-using-for-conditional-rendering-in-react-a0f7b96200f8)
-[Why You Should Stop Using the && Operator in React... - Eric Murphy]('https://www.youtube.com/watch?v=muqFuBGNmLk&ab_channel=EricMurphy)
+[Why You Should Stop Using the && Operator in React... - Eric Murphy](https://www.youtube.com/watch?v=muqFuBGNmLk&ab_channel=EricMurphy)
 
 # Support
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/youngjinkwak)

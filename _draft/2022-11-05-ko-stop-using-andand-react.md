@@ -40,12 +40,10 @@ const MyComponent = ({ condition }: Prop) => {
 코드만 보면 문제가 될 것이 없어 보입니다. "&&" 은 리엑트에서 정의 된 것도 아닌 자바스크립트 문법중 하나이며
 실제로 ```if``` 조건 문에 ```AND```를 표현하기위해 자주 사용됩니다.
 
-
 # 왜 "&&"을 사용하지 말아야 할까?
 사실은 "&&" 를 사용해도 좋습니다. "무조건" 사용하지 말라는 뜻은 아닙니다. 하지만 이는 condition이 확실하게 ```true``` 혹은 ```false```인 boolean 으로 나올 수 있을 때의 이야기입니다.
 만약에 condition이 boolean이 아닌 ```null``` 혹은 ```undefined```라면 어떤 결과가 나올까요? 결론 부터 말씀을 드리면 **"ERROR"** 가 나옵니다
 ## 예시
-
 ### 만약 condition이  ```true```, ```false```일 경우
 Component가 정상적으로 Rendering 됩니다.
 ### 만약 condition이 ```0```일 경우

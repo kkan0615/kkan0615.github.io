@@ -1,14 +1,14 @@
 ---
-title: Git: Alternative way of "git checkout"
+title: Javascript How to convert numbers between different bases
 author: Youngjin Kwak
-date: 2022-11-12 12:10:00 +0800
-categories: [git]
-tags: [git]
+date: 2022-09-17 18:21:00 +0800
+categories: [javascript]
+tags: [javascript]
 image:
-  path: ../images/git-logo.jpg
-  width: 800
-  height: 500
-  alt: git-logo
+path: ../images/javascript-logo.jpeg
+width: 800
+height: 500
+alt: javascript-logo.
 ---
 ---
 # What is ```checkout```

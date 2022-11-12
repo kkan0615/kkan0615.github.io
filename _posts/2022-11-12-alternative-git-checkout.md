@@ -1,20 +1,26 @@
 ---
 title: Git: Alternative way "git checkout"
 author: Youngjin Kwak
-date: 2022-11-11 18:21:00 +0800
+date: 2022-11-12 12:10:00 +0800
 categories: [git]
 tags: [git]
 image:
   path: ../images/git-logo.jpg
   width: 800
   height: 500
-  alt: git-logo.
+  alt: git-logo
 ---
 ---
 # Overview
 
 # What is ```checkout```
 ```checkout``` is used for switch branch or restore working tree files.
+```shell
+# Move to specific branch
+git checkout <branch-name>
+# Create new branch and then move to that branch
+git checkout -b <new-branch>
+```
 
 # Alternative
 ```checkout``` command is seperated to two commands, ```switch``` and ```restore```. These commands are introduced Git v2.23.
@@ -42,7 +48,17 @@ Proceed even if the index or the working tree differs from HEAD
 git switch <branch-name> --discard-changes
 ```
 ### ```-m``` or ```--merge```
-@TODO: 작성해주세요
+It will try a three-way merge. After three-way merge, ```git diff``` would show you what changes you made
+```shell
+git switch <branch-name> -m
+git switch <branch-name> --merge
+```
+
+### ```-```
+Switch back to the previous branch.
+```shell
+git swtich -
+```
 
 # ```restore``` command
 ```restore``` command helps to unstage or event discard uncommited local changes.
@@ -53,7 +69,7 @@ git restore .
 ```
 ## Useful options
 ### ```--staged```
-It will only restore the index.
+It will only restore the index.html file
 ```shell
 git restore --staged index.html
 ```

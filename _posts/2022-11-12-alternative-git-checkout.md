@@ -1,17 +1,17 @@
 ---
-title: Javascript How to convert numbers between different bases
+title: Alternative way
 author: Youngjin Kwak
 date: 2022-11-10 18:21:00 +0800
-categories: [javascript]
-tags: [javascript]
+categories: [git]
+tags: [git]
 image:
-path: ../images/javascript-logo.jpeg
+path: ../images/git-logo.jpg
 width: 800
 height: 500
-alt: javascript-logo.
+alt: git-logo.
 ---
 ---
-# What is ```checkout```
+# What is "checkout"
 ```checkout``` is used for switch branch or restore working tree files.
 ```
 # Move to specific branch

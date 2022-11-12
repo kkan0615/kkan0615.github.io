@@ -1,9 +1,9 @@
 ---
 title: Git: Alternative way of "git checkout"
 author: Youngjin Kwak
-date: 2022-11-12 13:00:00 +0800
-categories: [git]
-tags: [git]
+date: 2022-11-03 13:00:00 +0800
+categories: [javascript]
+tags: [javascript]
 image:
 path: ../images/javascript-logo.jpeg
 width: 800

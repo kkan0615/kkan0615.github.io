@@ -1,5 +1,5 @@
 ---
-title: React에서 조건문으로 랜더링시 "&&" 사용하지 맙시다.
+title: React에서 조건문으로 랜더링시 "&&" 사용하지 맙시다
 author: Youngjin Kwak
 date: 2022-11-05 15:30:00 +0800
 categories: [korean, react]

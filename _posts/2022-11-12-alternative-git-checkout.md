@@ -1,7 +1,7 @@
 ---
-title: Git: Alternative way of git checkout
+title: Javascript How to convert numbers between different bases
 author: Youngjin Kwak
-date: 2022-11-03 13:00:00 +0800
+date: 2022-11-10 18:21:00 +0800
 categories: [javascript]
 tags: [javascript]
 image:

@@ -1,5 +1,5 @@
 ---
-title: Git: Alternative way "git checkout"
+title: Git: Alternative way of "git checkout"
 author: Youngjin Kwak
 date: 2022-11-12 12:10:00 +0800
 categories: [git]
@@ -11,8 +11,6 @@ image:
   alt: git-logo
 ---
 ---
-# Overview
-
 # What is ```checkout```
 ```checkout``` is used for switch branch or restore working tree files.
 ```shell

@@ -8,7 +8,7 @@ image:
   path: ../images/react-logo.png
   width: 800
   height: 500
-  alt: react-logo.
+  alt: react-logo
 ---
 ---
 # Overview

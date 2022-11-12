@@ -1,5 +1,5 @@
 ---
-title: Alternative way of checkout
+title: Alternative way of "git checkout"
 author: Youngjin Kwak
 date: 2022-11-10 18:21:00 +0800
 categories: [git]

@@ -16,7 +16,7 @@ winston 라이브러리를 사용해서 로깅 시스템을 만들 것입니다.
 이 포스팅은 3.8.2 버전을 사용 중에 있습니다.
 
 # winston 설치
-```
+```shell
 npm install winston
 ```
 
@@ -218,8 +218,40 @@ app.get('/logger', (req: Request, res: Response) => {
 ```
 logger 테스트용 API를 만들 어 줍니다. 그리고 해당 API 주소로 들어가게 되면 Console 창 및 logs 폴더가 생성되며 안에 log 파일이 있는 것을 확인해 볼 수 있습니다.
 
+# morgan 사용하기
+morgan은 middleware로써 사용되며 request log를 customizing할 때 사용합니다.
+```shell
+npm install morgan
+npm install -D @types/morgan
+```
+morgan package를 다운로드 해줍니다.
+
+## morgan 설정하기 및 사용하기
+```typescript
+import morgan, { StreamOptions } from 'morgan'
+
+const stream: StreamOptions = {
+  // Use the http severity
+  write: (message) => logger.http(message.trim()),
+}
+
+const skip = () => {
+  const env = process.env.NODE_ENV || 'development'
+  return env !== 'development'
+}
+
+const morganMiddleware = morgan(
+  // formatting
+  ':method :url :status :res[content-length] - :response-time ms',
+  { stream, skip }
+)
+
+app.use(morganMiddleware)
+```
+
 # Ref
 - [공식 문서 README.md](https://github.com/winstonjs/winston)
+- [A Complete Guide to Winston Logging in Node.js - Better Stack Team](https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/)
 - [Better logs for ExpressJS using winston and Morgan with Typescript](https://levelup.gitconnected.com/better-logs-for-expressjs-using-winston-and-morgan-with-typescript-1c31c1ab9342)
 
 # Support
